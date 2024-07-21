@@ -1,0 +1,8 @@
+/createAdmin.js
+/node_modules/
+/uploads/
+/seeders/
+/migrations/
+/.env
+/models/user.js
+/models/animal.js
