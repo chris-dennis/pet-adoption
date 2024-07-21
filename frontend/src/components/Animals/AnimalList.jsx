@@ -107,7 +107,7 @@ const AnimalList = () => {
                          onMouseLeave={handleMouseLeave}
                          style={{border: '1px solid #ccccc', padding: '10px', margin: '10px', position: 'relative'}}
                     >
-                        <img src={"http://localhost:5000" + animal.image_url} alt={animal.name}
+                        <img src={"http://13.59.42.81:5000" + animal.image_url} alt={animal.name}
                              style={{maxWidth: '200px'}}/>
                         <div className='name-breed'>
                             <h2>{animal.name}, {animal.age}</h2>
@@ -173,7 +173,7 @@ const AnimalList = () => {
                             </div>
                         ) : (
                             <div className="more-details">
-                                <img src={"http://localhost:5000" + selectedAnimal.image_url} alt={selectedAnimal.name}
+                                <img src={"http://13.59.42.81:5000" + selectedAnimal.image_url} alt={selectedAnimal.name}
                                      style={{maxWidth: '400px'}}/>
                                 <div className="details">
                                     <h2>{selectedAnimal.name}</h2>

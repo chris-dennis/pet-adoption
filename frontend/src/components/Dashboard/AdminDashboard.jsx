@@ -116,7 +116,7 @@ const AdminDashboard = () => {
                          onMouseLeave={handleMouseLeave}
                          style={{border: '1px solid #ccc', padding: '10px', margin: '10px', position: 'relative'}}
                     >
-                        <img src={"http://localhost:5000" + animal.image_url} alt={animal.name}
+                        <img src={"http://13.59.42.81:5000" + animal.image_url} alt={animal.name}
                              style={{maxWidth: '200px'}}/>
                         <div className="name-breed">
                             <h2>{animal.name}, {animal.age}</h2>
@@ -154,10 +154,10 @@ const AdminDashboard = () => {
                         <textarea name="description" value={animalData.description} onChange={handleInputChange}></textarea>
 
                         <label>Status (available/adopted):</label>
-                        <input type="text" name="status             " value={animalData.status} onChange={handleInputChange} required/>
+                        <input type="text" name="status" value={animalData.status} onChange={handleInputChange} required/>
 
                         <label>Image:</label>
-                        <input type="file" name="image" onChange={handleImageChange}/>
+                                <input type="file" name="image" onChange={handleImageChange}/>
                         {imagePreview && <img src={imagePreview} alt="Preview"
                                               style={{maxWidth: '200px', display: 'block', marginTop: '10px'}}/>}
                         <button type="submit">{selectedAnimal ? 'Update Animal' : 'Add Animal'}</button>
