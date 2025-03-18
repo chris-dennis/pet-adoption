@@ -19,7 +19,7 @@ Welcome. This is a sample website for a pet shelter to facilitate easy pet adopt
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/animal-adoption-platform.git
+    git clone https://github.com/chris-dennis/pet-adoption
     ```
 
 2. Install dependencies:
